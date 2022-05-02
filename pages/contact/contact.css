@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0;
+     padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+     border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    list-style: none;
+    color: white;
+}
+
+*::selection{
+    background: #ffe400;
+    color:#333;
+}
+
+html{
+    font-size: 63%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width:1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:rgb(61, 58, 58);
+}
+
+html::-webkit-scrollbar-thumb{
+    background:#ffe400;
+    border-radius: 3rem;
+
+}
+
+body{
+    background:#000;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #000;
+
+}
+.header  .navbar a{
+    font-size: 1.6rem;
+    margin: 1.9rem;
+    padding: 2rem;
+
+}
+ .navbar a:hover , a:hover i {
+    color: #ffe400;
+
+}
+
+.fa-solid{
+    margin: 0.5rem;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sp{
+    color:#ffe400 ;
+}
+.logo{
+    width: 9rem;
+    border-radius: 3rem;
+    margin: 0 1rem;
+}
+section{
+    padding: 3rem 9%;
+}
+#menu{
+    position: fixed;
+    top:1rem; right:1rem;
+    background:#000;
+    color:#fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding:1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
+.contact .row{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact .heading{
+    font-size: 3.5rem;
+    margin: 2rem;
+    text-align: center;
+}
+.contact .heading .rad{
+    border: 0.1rem solid #aaa;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    
+}
+.contact .row .content{
+    flex:1 1 10rem;
+    padding:4rem;
+    padding-bottom: 0;
+}
+
+.contact .row form{
+    flex:1 1 40rem;
+    padding:2rem;
+    margin:2rem;
+    margin-bottom: 4rem;
+}
+
+.contact .row form .box{
+    padding:1.5rem;
+    margin:1rem 0;
+    background:#3333;
+    color:#fff;
+    text-transform: none;
+    font-size: 1.7rem;
+    width:100%;
+}
+
+.contact .row form .box::placeholder{
+    text-transform: capitalize;
+}
+
+.contact .row form .message{
+    height: 15rem;
+    resize: none;
+}
+
+.contact .row .content .title{
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color:#eee;
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.contact .row .content .info h3 i{
+    padding-right: 1rem;
+    color:#ffe400;
+}
+
+
+
+
+
+
+
+
+.footer{
+    padding: 5rem 9%;
+}
+.footer .box-container {
+    display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .footer .box-container .box h3 {
+    font-size: 2.2rem;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box .links {
+    font-size: 1.5rem;
+    color: #aaa;
+    padding: 1rem 0;
+    display: block;
+  }
+  
+  .footer .box-container .box .links:hover {
+    color: #ffe400;
+  }
+  
+  .footer .box-container .box p {
+    font-size: 1.5rem;
+    color: #aaa;
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box p i {
+    padding-right: .5rem;
+    color: #ffe400;
+  }
+  
+ 
+  .footer .box-container .box form .email {
+    margin-bottom: 1rem;
+    width: 100%;
+    background: #111;
+    padding: 1.2rem;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: none;
+  }
+  .btn:hover {
+    transform: scale(1.1);
+}
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: #ffe400;
+    border-radius: 1.3rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+    color: 	 #8d765f ;
+}
+.btn i{
+    color: #8d765f;
+
+  }
+  .credit {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    color: #fff;
+    background: #111;
+    line-height: 1.5;
+  }
+  
+  .credit span {
+    color: #ffe400;
+  }
+
+  @media (max-width:1200px){
+
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width:1087px){
+
+    .navbar{
+        right: -120%;
+        display: flex;
+        flex-direction: column;
+        background: #000;
+        position: fixed;
+    }
+ .header .navbar a{
+    margin: 1.4rem;
+    padding: 1.6rem;
+ }
+    #menu{
+        display: block;
+    }
+ 
+     .toggle{
+     right:0%;
+     top: 2%;
+    }
+ 
+    body{
+        padding:0;
+    }
+ 
+ }
+ @media (max-width:768px){
+
+    html{
+        font-size: 50%;
+    }
+ 
+ }
+ @media (max-width:400px){
+.contact .heading{
+    font-size: 2rem;
+} 
+}
