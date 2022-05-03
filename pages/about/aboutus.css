@@ -238,7 +238,10 @@ gap: 1.5rem;
     body{
         padding:0;
     }
- 
+    .logo {
+        width: 7rem;
+        margin: 1rem 1rem;
+    }
  }
  @media (max-width:768px){
 
