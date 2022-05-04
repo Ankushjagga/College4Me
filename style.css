@@ -81,6 +81,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 5rem 0 0;
 }
 .sp{
     color:#ffe400 ;
@@ -257,6 +258,9 @@ color: #ffe400;
 .counter .box h3{
     font-size: 2rem;
 margin: 1rem;
+}
+.counter .box h3:hover, .box span i:hover{
+    color:#ffe400;
 }
 .counter{
     display: flex;
