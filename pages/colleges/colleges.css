@@ -106,7 +106,7 @@ body{
 
 .colleges h1{
     font-size: 4em;
-    margin: 5rem 0rem 1rem 0; 
+    margin: 3rem; 
 text-align: center;
 
 }
@@ -118,8 +118,38 @@ text-align: center;
     border-radius: 1rem;
 }
 
+.heading{
+    text-align: center;
+ margin: 4rem;
+}
+.heading .rad{
+    margin-bottom: 2rem;
+    border: 0.1rem solid #aaa;
+    font-size: 3.5rem;
+padding: .8rem;
+border-radius: 1rem;
+}
 
-
+.list{
+    margin: auto;
+    width: 80%;
+}
+.list .first{
+    background-color: #222;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 2rem;
+margin: 2rem;
+font-size: 2rem;
+cursor: pointer;
+}
+.list .first:hover, .collegename:hover{
+    color: #ffe400;
+}
+.collegename{
+    margin: 2rem;
+}
 
 .footer{
     padding: 5rem 9%;
@@ -221,7 +251,7 @@ position: fixed;    }
     }
  
      .toggle{
-     right:0%;
+     right:-6%;
      top: 6%;
     }
  

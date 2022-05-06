@@ -103,6 +103,68 @@ body{
     display: none;
 }
 
+
+.goals .box-container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+
+.goals .box-container .box{
+    height: 30rem;
+    width: 32rem;
+    border-radius: 1rem;
+    margin:2rem;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #ffe400;
+    text-align: center;
+    box-shadow: #ffe400 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box h1, .box a{
+    color: white;
+    font-size: 2rem;
+}
+.box p{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+
+
+}
+.box span{
+    font-size: 1.3rem;
+}
+.box h3{
+    font-size: 3rem;
+}
+.colleges h1{
+    font-size: 4em;
+    margin: 5rem 0rem 1rem 0; 
+text-align: center;
+
+}
+.rad{
+    margin-bottom: 2rem;
+    border: 0.1rem solid #aaa;
+    font-size: 3.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
+.goals > .box-container >.box:hover {
+    transform: scale(1.06);
+}
+
+
+
 .footer{
     padding: 5rem 9%;
 }
@@ -204,7 +266,7 @@ position: fixed;    }
  
      .toggle{
 
-     right:0%;
+     right:-6%;
      top: 6%;
     }
  
