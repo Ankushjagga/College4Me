@@ -97,7 +97,7 @@ section{
     background:#000;
     color:#fff;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     padding:1rem 1.5rem;
     z-index: 1000;
     display: none;
@@ -273,16 +273,16 @@ section{
         position: fixed;
     }
  .header .navbar a{
-    margin: 1.4rem;
-    padding: 1.6rem;
+    margin: .4rem;
+    padding: .6rem;
  }
     #menu{
         display: block;
     }
  
      .toggle{
-     right:0%;
-     top: 2%;
+     right:-6%;
+     top: 6%;
     }
  
     body{
