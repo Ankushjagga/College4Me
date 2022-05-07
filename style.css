@@ -162,9 +162,54 @@ object-fit: cover;
 color: #ffe400;
 }
 
+.courses h1{
+    font-size: 4em;
+    margin: 5rem 0rem 1rem 0; 
+text-align: center;
 
+}
+.rad{
+    margin-bottom: 2rem;
+    border: 0.1rem solid #aaa;
+    font-size: 3.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.stream-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    justify-content: center;
+}
 
+ .stream-container .box{
+    width:30rem;
+    background:#222;
+    text-align: center;
+    padding: 2rem;
+    margin:2rem;
+    cursor: pointer;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: #ffe400 5px 5px 5px;
 
+}
+
+  .stream-container .box span{
+    font-size: 3rem;
+}
+
+ .stream-container .box h3{
+    font-size: 1.8rem;
+    color:#fff;
+    padding: .3rem;
+    margin: 1rem;
+    border-bottom: 1px solid rgb(197, 192, 192);
+}
+.stream-container .box h3:hover{
+    color: #ffe400;
+}
 .footer{
     padding: 5rem 9%;
 }

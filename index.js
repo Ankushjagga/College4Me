@@ -41,30 +41,3 @@ function showSlides() {
   setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
 
-// Get the modal
-
-// var modal = document.getElementById("modal");
-
-// var search = document.getElementsByClassName("search");
-
-// var span = document.getElementsByClassName("close")[0];
-
-// for (var i = 0; i < search.length; i++) {
-//   search[i].onclick = function () {
-//     modal.style.display = "block";
-//   };
-// }
-
-// span.onclick = function () {
-//   modal.style.display = "none";
-// };
-
-
-// window.onclick = function (event) {
-//   if (event.target == modal ) {
-//     modal.style.display = "none";
-//   }
-
-
-// };
-
