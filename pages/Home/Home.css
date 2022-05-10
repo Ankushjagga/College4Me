@@ -20,6 +20,8 @@
     color:#333;
 }
 
+ 
+ 
 html{
     font-size: 63%;
     overflow-x: hidden;
@@ -81,7 +83,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:  0 5rem 0 0;
+    margin: 0 5rem 0 0;
 }
 .sp{
     color:#ffe400 ;
@@ -105,9 +107,67 @@ body{
 }
 
 
-.colleges h1{
+.mySlides >img{
+    height:50vh;
+opacity: .5;
+width: 100vw;
+object-fit: cover;
+
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.text{
+    position: absolute;
+    bottom: 18rem;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.slideshow-container {
+    max-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+ 
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+.fa-arrow-trend-up{
+color: #ffe400;
+}
+
+.courses h1{
     font-size: 4em;
-    margin: 3rem; 
+    margin: 5rem 0rem 1rem 0; 
 text-align: center;
 
 }
@@ -118,40 +178,41 @@ text-align: center;
     padding: 1rem;
     border-radius: 1rem;
 }
+.stream-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    justify-content: center;
+}
 
-.heading{
+ .stream-container .box{
+    width:30rem;
+    background:#222;
     text-align: center;
- margin: 4rem;
-}
-.heading .rad{
-    margin-bottom: 2rem;
-    border: 0.1rem solid #aaa;
-    font-size: 3.5rem;
-padding: .8rem;
-border-radius: 1rem;
+    padding: 2rem;
+    margin:2rem;
+    cursor: pointer;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: #ffe400 5px 5px 5px;
+
 }
 
-.list{
-    margin: auto;
-    width: 80%;
+  .stream-container .box span{
+    font-size: 3rem;
 }
-.list .first{
-    background-color: #222;
-display: flex;
-align-items: center;
-justify-content: center;
-margin: 2rem;
-padding: 2rem;
-font-size: 2rem;
-cursor: pointer;
+
+ .stream-container .box h3{
+    font-size: 1.8rem;
+    color:#fff;
+    padding: .3rem;
+    margin: 1rem;
+    border-bottom: 1px solid rgb(197, 192, 192);
 }
-.list .first:hover, .collegename:hover{
+.stream-container .box h3:hover{
     color: #ffe400;
 }
-.collegename{
-    margin: 2rem;
-}
-
 .footer{
     padding: 5rem 9%;
 }
@@ -253,7 +314,8 @@ position: fixed;    }
  
      .toggle{
         right: -5rem;
-        top: 6rem;
+    top: 6rem;
+
     }
  
     body{
@@ -265,11 +327,43 @@ position: fixed;    }
         margin: 1rem 1rem;
     }
  }
+ @media (max-width:821px){
+ 
+    .content .searchfield{
+        bottom: 35rem;
+    }
+    .text{
+        bottom: 24rem;
 
+    }
+    
+    }
  @media (max-width:768px){
 
     html{
         font-size: 50%;
     }
+   
  
  }
+ @media (max-width:512px){
+    .goals .heading .rad{
+     font-size: 2.5rem;
+    } 
+    .content .searchfield{
+        bottom: 32rem;
+    }
+    .text{
+        bottom: 20rem;
+        font-size: 4rem;
+
+    }
+    }
+    @media (max-width:415px){
+        .text{
+         font-size: 2.5rem;
+        } 
+        .goals .heading .rad{
+            font-size: 1.7rem;
+           } 
+        }
