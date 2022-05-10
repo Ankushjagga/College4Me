@@ -20,6 +20,8 @@
     color:#333;
 }
 
+ 
+ 
 html{
     font-size: 63%;
     overflow-x: hidden;
@@ -87,9 +89,10 @@ body{
     color:#ffe400 ;
 }
 .logo{
-    width: 9rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 3rem;
-    margin: 0 1rem;
+    margin: 2rem 1rem;
 }
 #menu{
     position: fixed;
@@ -310,15 +313,17 @@ position: fixed;    }
     }
  
      .toggle{
-     right:-13%;
-     top: 6%;
+        right: -5rem;
+    top: 6rem;
+
     }
  
     body{
         padding:0;
     }
     .logo {
-        width: 7rem;
+        width: 5rem;
+        height: 5rem;
         margin: 1rem 1rem;
     }
  }
@@ -328,7 +333,7 @@ position: fixed;    }
         bottom: 35rem;
     }
     .text{
-        bottom: 45rem;
+        bottom: 24rem;
 
     }
     
@@ -338,9 +343,10 @@ position: fixed;    }
     html{
         font-size: 50%;
     }
+   
  
  }
- @media (max-width:442px){
+ @media (max-width:512px){
     .goals .heading .rad{
      font-size: 2.5rem;
     } 
@@ -348,7 +354,8 @@ position: fixed;    }
         bottom: 32rem;
     }
     .text{
-        bottom: 40rem;
+        bottom: 20rem;
+        font-size: 4rem;
 
     }
     }

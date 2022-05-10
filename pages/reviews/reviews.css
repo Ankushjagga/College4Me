@@ -87,9 +87,10 @@ body{
     color:#ffe400 ;
 }
 .logo{
-    width: 9rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 3rem;
-    margin: 0 1rem;
+    margin: 2rem 1rem;
 }
 #menu{
     position: fixed;
@@ -296,15 +297,15 @@ position: fixed;    }
     }
  
      .toggle{
-     right:-6%;
-     top: 6%;
+        right: -5rem;
+        top: 6rem;
     }
- 
     body{
         padding:0;
     }
     .logo {
-        width: 7rem;
+        width: 5rem;
+        height: 5rem;
         margin: 1rem 1rem;
     }
  }
