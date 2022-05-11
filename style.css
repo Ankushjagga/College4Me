@@ -41,7 +41,7 @@ html::-webkit-scrollbar-thumb{
 
 body{
     background:#111;
-    margin: 13rem 26%;
+    margin: 13rem 19%;
 
 }
 
@@ -109,7 +109,7 @@ form {
 	padding: 0 4rem;
 	height: 100%;
 	text-align: center;
-	width: 30vw;
+	width: 50vw;
 }
 
 .inp{
@@ -144,8 +144,30 @@ form {
     justify-content: center;
     align-items: center;
 	background-color: #ffe400;
+    width: 50vw;
 }
 .sign-in-container, .sign-up-container{
 	display: flex;
 	height: 65vh;
+}
+
+@media (max-width:991px){
+    body{
+        margin: 0;
+    }
+.details{
+    width: 100vw;
+    height: 50vh;
+}
+form{
+    width: 100vw;
+    height: 50vh;
+}
+.sign-in-container, .sign-up-container{
+    flex-wrap: wrap;
+    height: auto;
+}
+.inp{
+    width: 45rem;
+}
 }
