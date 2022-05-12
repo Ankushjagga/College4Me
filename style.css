@@ -153,15 +153,15 @@ form {
 
 @media (max-width:991px){
     body{
-        margin: 0;
+        margin: 5rem;
     }
 .details{
     width: 100vw;
-    height: 50vh;
+    height: 46vh;
 }
 form{
     width: 100vw;
-    height: 50vh;
+    height: 42vh;
 }
 .sign-in-container, .sign-up-container{
     flex-wrap: wrap;
