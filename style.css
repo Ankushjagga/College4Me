@@ -40,7 +40,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background:#111;
+    background-image: url('./assests/ColoredShapes.svg');
     margin: 13rem 19%;
 
 }
@@ -161,7 +161,7 @@ form {
 }
 form{
     width: 100vw;
-    height: 42vh;
+    height: 45vh;
 }
 .sign-in-container, .sign-up-container{
     flex-wrap: wrap;
