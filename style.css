@@ -40,7 +40,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background-image: url('./assests/ColoredShapes.svg');
+    background: url('./assests/ColoredShapes.svg') center center ;
     margin: 13rem 19%;
 
 }
@@ -157,11 +157,11 @@ form {
     }
 .details{
     width: 100vw;
-    height: 46vh;
+    height: 50vh;
 }
 form{
     width: 100vw;
-    height: 45vh;
+    height: 50vh;
 }
 .sign-in-container, .sign-up-container{
     flex-wrap: wrap;
