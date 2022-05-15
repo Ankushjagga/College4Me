@@ -306,4 +306,9 @@ section{
 .contact .heading{
     font-size: 2rem;
 } 
+
+
+.contact .row .content .info h3 {
+font-size: 1.5rem;
 }
+ }

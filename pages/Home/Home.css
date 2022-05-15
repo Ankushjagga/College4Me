@@ -310,7 +310,7 @@ text-align: center;
         right: -120%;
         display: flex;
         flex-direction: column;
-        /* background: #000; */
+        background: #000;
 position: fixed;    }
  
     #menu{
