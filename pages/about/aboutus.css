@@ -101,7 +101,7 @@ body{
 section{
     padding: 3rem 9%;
 }
-.details p{
+.details p, .forstudent p{
     font-size: 2rem;
     line-height: 4rem;
 }
@@ -113,7 +113,7 @@ justify-content: center;
     margin: 0 4rem;
     line-height: 3rem;
 }
-.details h1{
+.details h1, .forstudent h1{
     font-size: 4em;
     margin: 3rem 0rem 5rem 0; 
 text-align: center;
@@ -140,7 +140,17 @@ h3{
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 gap: 1.5rem;
 }
+.about-img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
+    height: 40vh;
+    border-radius: 10rem;
+   margin-bottom: 3rem;
+    border: .4rem solid #ffe400;
 
+}
 .footer{
     padding: 5rem 9%;
 }
@@ -154,6 +164,7 @@ gap: 1.5rem;
     font-size: 2.2rem;
     color: #fff;
     padding: 1rem 0;
+    justify-content: start;
   }
   
   .footer .box-container .box .links {
@@ -231,6 +242,7 @@ gap: 1.5rem;
         flex-direction: column;
         background: #000;
         position: fixed;
+        transition: auto;  
     }
  .header .navbar a{
     margin: 1.4rem;
@@ -243,6 +255,7 @@ gap: 1.5rem;
      .toggle{
         right: -5rem;
     top: 6rem;
+    transition: auto;  
 }
  
     body{

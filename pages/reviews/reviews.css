@@ -117,8 +117,16 @@ text-align: center;
     border-radius: 1rem;
 }
 
+.checked {
+    color: #ffe400;
+  }
+  .fa-star{
 
-
+      margin: 0.4rem;
+  }
+.rating{
+    margin:1rem 2rem;
+}
 form .box{
     padding:1.5rem;
     margin:1rem 0;
@@ -290,7 +298,8 @@ align-items: center;
         display: flex;
         flex-direction: column;
         background: #000;
-position: fixed;    }
+position: fixed; 
+transition: auto;   }
  
     #menu{
         display: block;
@@ -299,6 +308,7 @@ position: fixed;    }
      .toggle{
         right: -5rem;
         top: 6rem;
+        transition: auto;  
     }
     body{
         padding:0;

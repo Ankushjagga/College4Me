@@ -245,7 +245,8 @@ cursor: pointer;
         display: flex;
         flex-direction: column;
         background: #000;
-position: fixed;    }
+position: fixed;   
+transition: auto;   }
  
     #menu{
         display: block;
@@ -254,6 +255,7 @@ position: fixed;    }
      .toggle{
         right: -5rem;
         top: 6rem;
+        transition: auto;  
     }
  
     body{
