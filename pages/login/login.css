@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
-
+:root{
+    --colrz:#c812d9b9;
+}
 
 *{
     font-family: 'Nunito', sans-serif;
@@ -15,7 +17,7 @@
 }
 
 *::selection{
-    background: #ffe400;
+    background: var(--colrz);
     color:#333;
 }
 
@@ -34,7 +36,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:#ffe400;
+    background:var(--colrz);
     border-radius: 3rem;
 
 }
@@ -51,7 +53,7 @@ body{
 .btn {
     margin-top: 1rem;
     padding: 1rem 2.8rem;
-    background: #ffe400;
+    background: var(--colrz);
     border-radius: 1.3rem;
     cursor: pointer;
     font-size: 1.7rem;
@@ -143,7 +145,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-	background-color: #ffe400;
+	background-color: var(--colrz);
     width: 50vw;
 }
 .sign-in-container, .sign-up-container{
