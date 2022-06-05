@@ -107,65 +107,47 @@ body{
     z-index: 10;
     display: none;
 }
-
-
-.goals .box-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding:2rem 0;
-}
-
-.goals .box-container .box{
-    height: 30rem;
-    width: 32rem;
-    border-radius: 1rem;
-    margin:2rem;
-    overflow: hidden;
-    cursor: pointer;
-    border: 2px solid var(--colrz);
+.colleges>h2{
     text-align: center;
-    box-shadow: var(--colrz) 0px 5px 15px;
+    align-items: center;
+    font-size: 2.2rem;
+    line-height: 5rem;
+    opacity: .8;
+    margin-bottom: 2rem;
+}
+.list{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    text-align: center;
 }
-.box h1, .box a{
-    color: white;
-    font-size: 2rem;
-}
-.box p{
-    color: white;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-
-
-}
-.box span{
-    font-size: 1.3rem;
-}
-.box h3{
-    font-size: 3rem;
-}
-.colleges h1{
-    font-size: 4em;
-    margin: 5rem 0rem 1rem 0; 
-text-align: center;
-
-}
-.rad{
-    margin-bottom: 2rem;
-    border: 0.1rem solid #aaa;
-    font-size: 3.5rem;
+#engineer {
+    border-collapse: collapse;
+    font-size: 1.6rem;
+    margin: 2rem;
+  }
+  
+  #engineer td, #engineer th {
+    border: .3rem solid #111;
     padding: 1rem;
-    border-radius: 1rem;
+    cursor: pointer;
+  }
+  
+  #engineer tr:nth-child(even){background-color: #333;}
+  
+  #engineer tr:hover {background-color:var(--colrz)}
+  #engineer th {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--colrz);
+  }
+
+.engineering{
+    margin: 0 3rem ;
+    width: 90%;
 }
 
-
-.goals > .box-container >a>.box:hover {
-    transform: scale(1.06);
-}
 
 
 
@@ -260,7 +242,10 @@ text-align: center;
         background: #000;
 position: fixed;  
 transition: auto;    }
- 
+#engineer{
+    font-size: 1rem;
+    width: auto;
+}
     #menu{
         display: block;
     }
