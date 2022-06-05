@@ -278,7 +278,10 @@ display:inline;
         background: #000;
 position: fixed;   
 transition: auto;   }
-
+#engineer{
+    font-size: 1rem;
+    width: auto;
+}
     #menu{
         display: block;
     }

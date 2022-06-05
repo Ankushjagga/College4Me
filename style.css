@@ -391,7 +391,12 @@ line-height: 3rem;
         background: #000;
 position: fixed;  
 transition: auto;  }
- 
+.image>img{
+    width: 65%;
+}
+.content>p{
+    font-size: 1.6rem;
+}
     #menu{
         display: block;
     }
