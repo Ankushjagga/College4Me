@@ -153,7 +153,7 @@ border-radius: 8rem;
   
 .mySlides >img{
     height:50vh;
-opacity: .4;
+opacity: .6;
 width: 100vw;
 object-fit: cover;
 
@@ -170,6 +170,11 @@ object-fit: cover;
     bottom: 18rem;
     font-size: 5rem;
     font-weight: bolder;
+    -webkit-backdrop-filter: blur(1rem);
+  backdrop-filter: blur(1rem);
+  background-color: rgba(149, 148, 148, 0.4);
+  padding: 1rem;
+  border-radius: 2rem;
 }
 
 .slideshow-container {
@@ -213,7 +218,7 @@ color: var(--colrz);
 
 }
 
-.courses h1{
+ h1{
     font-size: 4em;
     margin: 5rem 0rem 1rem 0; 
 text-align: center;
@@ -231,6 +236,31 @@ text-align: center;
     font-size: 3.5rem;
     padding: 1rem;
     border-radius: 1rem;
+}
+.detail-us{
+display: flex;
+flex-wrap: wrap;
+flex: 1 1 50rem;
+justify-content: center;
+align-items: center;
+}
+.content{
+    flex: 1 1 40rem;
+}
+.image>img{
+    width: 50rem;
+    height: auto;
+    border-radius: 2rem;
+    margin: 2rem;
+}
+.content>p{
+font-size: 2rem;
+margin:  3rem;
+line-height: 3rem;
+}
+.fa-check{
+    color: var(--colrz);
+    margin: .5rem;
 }
 
 .stream-container{
